@@ -15,6 +15,25 @@ body {
     transition: all ease 1s;
 
 }
+
+#aboutme-text1 {
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    margin: 20px;
+}
+
+#aboutme-text2 {
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 100px;
+    opacity: 0.2;
+    position: absolute;
+    margin: 20px;
+}
 /* FONT AND NAV COLORS END */
 
 #accueil {
@@ -43,7 +62,7 @@ body {
 
 /* About BUTTON */
 
-#about {
+#about-btn {
     font-weight: 700;
     font-size: 15px;
     padding: 15px;
@@ -54,11 +73,31 @@ body {
     color: white;
 }
 
-#about:hover {
+#about-btn:hover {
     background-color: #c2731a;
     transition: ease 1s;
 }
 
+/* SECTIONS START */
+
+#aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutme-left {
+
+}
+
+.aboutme-right {
+    
+}
+
+
+
+/* SECTIONS END */
 
 /* KEYFRAMES */
 @keyframes typing {
