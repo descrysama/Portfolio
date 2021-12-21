@@ -26,8 +26,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: white;
     overflow: hidden; 
-    white-space: nowrap; 
-    margin: 0 auto; 
+    white-space: nowrap;  
+    margin: 0 auto;
     letter-spacing: .15em;
     animation: typing 3.5s steps(40, end);
 }
@@ -38,6 +38,25 @@ body {
     animation: appears 3s steps(40) forwards;
     animation-delay: 2s;
     opacity: 0;
+    margin-bottom: 30px;
+}
+
+/* About BUTTON */
+
+#about {
+    font-weight: 700;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #DB7D0F;
+    text-decoration: none;
+    color: white;
+}
+
+#about:hover {
+    background-color: #c2731a;
+    transition: ease 1s;
 }
 
 
@@ -48,10 +67,10 @@ body {
 }
 
 @keyframes appears {
-    0% {opacity: 0; font-size: 0px;}
-    25% {opacity: 0.25; font-size: 10px;}
-    50% {opacity: 0.50; font-size: 20px;}
-    75% {opacity: 0.75; font-size: 30px;}
-    100% {opacity: 1; font-size: 40px;}
+    0% {opacity: 0}
+    25% {opacity: 0.25}
+    50% {opacity: 0.50}
+    75% {opacity: 0.75}
+    100% {opacity: 1}
 }
 /* KEYFRAMES END*/
