@@ -153,6 +153,12 @@ th {
     justify-content: center;
 }
 
+.square {
+    width: 300px;
+    height: 300px;
+    
+}
+
 
 
 /* SECTIONS END */
