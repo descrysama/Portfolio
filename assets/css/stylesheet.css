@@ -30,8 +30,7 @@ body {
     color: white;
     font-size: 100px;
     opacity: 0.2;
-    position: relative;
-    margin-top: 60px; 
+    position: absolute;
 }
 /* FONT AND NAV COLORS END */
 
