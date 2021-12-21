@@ -17,7 +17,7 @@ body {
 
 }
 
-.aboutme-text {
+.section-text {
     width: 100vh;
     height: 120px;
     display: flex;
@@ -42,10 +42,27 @@ body {
     opacity: 0.2;
     position: absolute;
 }
+
+#contact-text1 {
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 50px;
+    position: absolute;
+}
+
+#contact-text2 {
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 100px;
+    opacity: 0.2;
+    position: absolute;
+}
 /* FONT AND NAV COLORS END */
 
 #accueil {
-    margin: 250px;
+    margin: 350px;
 }
 
 #titleh1 {
@@ -134,6 +151,16 @@ th {
     width: 100vw;
 }
 
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 100vw;
+    background-color: white;
+}
+
 .aboutme-left {
     width: 50vw;
     float: left;
@@ -149,14 +176,24 @@ th {
     width: 50vw;
     float: right;
     right: 0px;
-    display: flex;
-    justify-content: center;
 }
 
+
+
 .square {
-    width: 300px;
-    height: 300px;
-    
+    width: 400px;
+    height: 190px;
+    border: 8px solid gold;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-box2 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
 }
 
 
