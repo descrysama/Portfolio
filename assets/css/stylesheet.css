@@ -87,10 +87,14 @@ body {
 }
 
 .aboutme-left {
+    width: 50%;
+    float: left;
 
 }
 
 .aboutme-right {
+    width: 50%;
+    float: right;
     
 }
 
