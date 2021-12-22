@@ -106,6 +106,15 @@ body {
     cursor: pointer;
 }
 
+#backup-button a {
+    color: black;
+    transition: all ease 1s;
+}
+
+#backup-button a:hover {
+    color: rgb(255, 255, 255);
+}
+
 /* About BUTTON */
 
 #about-btn {
