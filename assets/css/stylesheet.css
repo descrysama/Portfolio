@@ -63,7 +63,12 @@ body {
 /* FONT AND NAV COLORS END */
 
 #accueil {
-    margin: 350px;
+    width: 100vw;
+    height: 40vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #titleh1 {
@@ -268,3 +273,6 @@ th {
     100% {opacity: 1}
 }
 /* KEYFRAMES END*/
+
+
+/* MEDIA */
