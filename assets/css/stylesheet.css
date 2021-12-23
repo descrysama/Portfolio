@@ -64,7 +64,7 @@ body {
 
 #accueil {
     width: 100vw;
-    height: 40vw;
+    height: 100vh;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -276,3 +276,18 @@ th {
 
 
 /* MEDIA */
+
+@media screen and (max-width: 770px) {
+
+    #titleh1 {
+        white-space: normal;
+        animation: none;
+    }
+
+    #titleh3 {
+        opacity: 1;
+        animation: none;
+    }
+    
+
+}
