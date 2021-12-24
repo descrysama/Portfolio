@@ -226,14 +226,14 @@ th {
     align-items: center;
 }
 
-#text-box2 {
+.text-box2 {
     color: white;
     text-transform: uppercase;
     font-weight: 900;
 }
 
 .form {
-    width: 30%;
+    width: 60vw;
 }
 
 #footer {
@@ -289,5 +289,82 @@ th {
         animation: none;
     }
     
+
+}
+
+@media screen and (max-width: 1780px) {
+    #aboutme-text1 {
+        font-size: 40px;
+    }
+
+    #aboutme-text2 {
+        font-size: 80px;
+    }
+
+    #contact-text1 {
+        font-size: 30px;
+    }
+
+    #contact-text2 {
+        font-size: 50px;
+    }
+
+    .form {
+        width: 60vw;
+    }
+
+    #contact {
+        height: 100vh;
+    }
+
+    #aboutme {
+        box-sizing: border-box;
+        height: 100vh;
+    }
+
+
+    .aboutme-content {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutme-left {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .aboutme-right {
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .square {
+        width: auto;
+        height: auto;
+        border: none;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .text-box2 {
+        margin: 10px;
+    }
+
+    .text-box2:hover {
+        margin: 10px;
+    }
+
 
 }
