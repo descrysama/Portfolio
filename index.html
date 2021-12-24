@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/8dca98b01b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8dca98b01b.js" crossorigin="anonymous"></script> 
     <title>Portfolio | E.Gossin</title>
   </head>
   <body>
@@ -73,17 +73,17 @@
         <div class="aboutme-right">
             <div class="row justify-content-center align-items-center">
               <div class="square">
-                <h2 id="text-box2">motivé</h2>
+                <h2 class="text-box2">motivé</h2>
               </div>
               <div class="square">
-                <h2 id="text-box2">perseverant</h2>
+                <h2 class="text-box2">perseverant</h2>
               </div>
               <div class="w-100"></div>
               <div class="square">
-                <h2 id="text-box2">curieux</h2>
+                <h2 class="text-box2">curieux</h2>
               </div>
               <div class="square">
-                <h2 id="text-box2">Sportif</h2>
+                <h2 class="text-box2">Sportif</h2>
               </div>
             </div>
         </div>
@@ -95,18 +95,18 @@
         <h1 id="contact-text2">CONTACTEZ-MOI</h1>
       </div>
       <div class="form">
-        <form>
+        <form method="post"> 
           <div class="form-group">
             <label for="exampleFormControlInput1">Adresse Email</label>
-            <input type="email" class="form-control" placeholder="johndoe@mail.com">
+            <input type="email" class="form-control"  id="sender-email" placeholder="johndoe@mail.com">
           </div>
           <div class="form-group">
             <label for="exampleFormControlInput1">Nom</label>
-            <input type="name" class="form-control" placeholder="John Doe">
+            <input type="name" class="form-control" id="sender-name" placeholder="John Doe">
           </div>
           <div class="form-group">
             <label for="exampleFormControlSelect1">Motif</label>
-            <select class="form-control" id="exampleFormControlSelect1">
+            <select id ="motif" class="form-control">
               <option>Site Web Front-End</option>
               <option>Site Web Back-End</option>
               <option>Site Web (Front, Back)</option>
@@ -115,10 +115,10 @@
           </div>
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+            <textarea class="form-control" id="text-area" rows="10"></textarea>
           </div>
+          <input type="button" class="btn btn-warning text-white" value="Send Email" onclick="sendEmail()">
         </form>
-        <button type="button" class="btn btn-warning text-white">Envoyer</button>
       </div>
     </section>
     <footer id="footer">
