@@ -210,8 +210,6 @@ th {
 
 .aboutme-right {
     width: 50vw;
-    float: right;
-    right: 0px;
 }
 
 
@@ -254,6 +252,10 @@ th {
 #footer h3 {
     color: white;
     font-size: 15px;
+}
+
+#form-send {
+    margin: 10px;
 }
 
 
@@ -315,6 +317,7 @@ th {
 
     #contact {
         height: 100vh;
+        padding: 0;
     }
 
     #aboutme {
@@ -324,9 +327,7 @@ th {
 
 
     .aboutme-content {
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
+        height: auto;
     }
 
     .aboutme-left {
@@ -362,9 +363,37 @@ th {
         margin: 10px;
     }
 
-    .text-box2:hover {
-        margin: 10px;
+
+}
+
+@media screen and (max-width:1500px) {
+
+    .aboutme-content {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        box-sizing: border-box;
     }
 
+    .aboutme-right {
+        box-sizing: border;
+        padding: 10px;
+        height: auto;
+    }
 
+    tr {
+        padding: 5px;
+    }
+    
+    td {
+        padding: 10px;
+        white-space: nowrap;
+        font-size: 20px;
+        
+    }
+    
+    th {
+        padding: 5px;
+    }
+    
 }
