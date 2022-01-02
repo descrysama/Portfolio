@@ -164,7 +164,7 @@ tr {
 }
 
 td {
-    padding: 30px;
+    padding: 10px;
     white-space: nowrap;
     font-size: 20px;
     
@@ -185,6 +185,7 @@ th {
     align-items: center;
     width: 100vw;
     height: 1000px;
+    box-sizing: border-box;
 }
 
 #contact {
@@ -199,8 +200,6 @@ th {
 
 .aboutme-left {
     width: 50vw;
-    float: left;
-    left: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -216,8 +215,8 @@ th {
 
 .square {
     width: 400px;
-    height: 190px;
-    border: 8px solid #db7c0f49;
+    border: 4px solid #db7c0f49;
+    border-radius: 10px;
     margin: 30px;
     display: flex;
     justify-content: center;
@@ -228,6 +227,7 @@ th {
     color: white;
     text-transform: uppercase;
     font-weight: 900;
+    margin: 10px;
 }
 
 .form {
@@ -320,44 +320,7 @@ th {
         padding: 0;
     }
 
-    #aboutme {
-        box-sizing: border-box;
-        height: 100vh;
-    }
 
-
-    .aboutme-content {
-        height: auto;
-    }
-
-    .aboutme-left {
-        width: 50vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    
-    }
-
-    .aboutme-right {
-        width: 50vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .square {
-        width: auto;
-        height: auto;
-        border: none;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
     
     .text-box2 {
         margin: 10px;
