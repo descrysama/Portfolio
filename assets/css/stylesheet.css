@@ -294,7 +294,7 @@ th {
 
 }
 
-@media screen and (max-width: 1780px) {
+@media screen and (min-width: 1780px) {
     #aboutme-text1 {
         font-size: 40px;
     }
