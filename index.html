@@ -33,7 +33,7 @@
       <div class="container text-center justify-content-center align-items-center">
         <h1 id="titleh1">Erwin GOSSIN</h1>
         <h3 id="titleh3">Apprenti Developpeur Web</h3>
-        <a href="#aboutme" id="about-btn">A Propos</a>
+        <a href="#aboutme" class="about-btn">A Propos</a>
       </div>
     </section>
     <section id="aboutme">
@@ -44,11 +44,6 @@
       <div class="aboutme-content">
         <div class="aboutme-left">
           <table>
-            <thead>
-              <tr>
-                <th>INFORMATIONS :</th>
-              </tr>
-            </thead>
             <tbody>
               <tr>
                 <td>Prénom :</td>
@@ -72,7 +67,7 @@
               </tr>
             </tbody> 
           </table>
-          <a href="./assets/files/cv_EGOSSIN.pdf" download="cv_EGOSSIN.pdf" id="about-btn">Téléchargez mon CV ici</a>
+          <a href="./assets/files/cv_EGOSSIN.pdf" download="cv_EGOSSIN.pdf" class="about-btn">Téléchargez mon CV ici</a>
         </div>
         <div class="aboutme-right">
             <div class="row justify-content-center align-items-center">
@@ -101,15 +96,15 @@
       <div class="form">
         <form method="post"> 
           <div class="form-group">
-            <label for="exampleFormControlInput1">Adresse Email</label>
+            <label for="sender-email">Adresse Email</label>
             <input type="email" class="form-control"  id="sender-email" placeholder="johndoe@mail.com">
           </div>
           <div class="form-group">
-            <label for="exampleFormControlInput1">Nom</label>
-            <input type="name" class="form-control" id="sender-name" placeholder="John Doe">
+            <label for="sender-name">Nom</label>
+            <input type="text" class="form-control" id="sender-name" placeholder="John Doe">
           </div>
           <div class="form-group">
-            <label for="exampleFormControlSelect1">Motif</label>
+            <label for="motif">Motif</label>
             <select id ="motif" class="form-control">
               <option>Site Web Front-End</option>
               <option>Site Web Back-End</option>
@@ -118,7 +113,7 @@
             </select>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlTextarea1"></label>
+            <label for="text-area"></label>
             <textarea class="form-control" id="text-area" rows="10"></textarea>
           </div>
           <input id="form-send" type="button" class="btn btn-warning text-white" value="Send Email" onclick="sendEmail()">
@@ -126,10 +121,10 @@
       </div>
     </section>
     <footer id="footer">
-      <h2>Made by E.Gossin &copy</h2>
+      <h2>Made by E.Gossin &copy;</h2>
       <h3>Powered by a bit of Bootstrap</h3>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</html>
+  </html>
